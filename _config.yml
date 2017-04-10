@@ -1,0 +1,42 @@
+# Site settings
+title: Eric Butler - Developer
+description: "A blog about crap Eric Butler codes..."
+baseurl: ""
+url: "http://butlersrepos.github.io"
+# User settings
+username: butlers repos
+user_title: Eric Butler - Developer
+email: ericbutler000@gmail.com
+twitter_username: butlerstweets
+github_username:  butlersrepos
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+links:
+  - title: home
+    url: /
+  - title: my posts
+    url: /posts
+  - title: series
+    url: /series
+  - title: tags
+    url: /tags
+  - title: about me
+    url: /about
+# projects in header index
+projects:
+  - name: reduxtris
+    url: https://github.com/butlersrepos/reduxtris
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
