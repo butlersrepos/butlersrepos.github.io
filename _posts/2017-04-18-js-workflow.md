@@ -54,4 +54,5 @@ Take this notion to an extreme if you can. Anytime you encounter something rout,
 ### Starter projects
 - <a href="https://expressjs.com/en/starter/generator.html">Express JS</a>
 - <a href="https://github.com/facebookincubator/create-react-app">React</a>
+- <a href="https://github.com/butlersrepos/riot-web-starter">My own Riot Starter</a>
 
