@@ -58,7 +58,7 @@ Firstly the result of our efforts here is gonna be an entirely new component tha
 - One is a function that maps the state object to any props you want to inject.
 - The second is a function that maps the dispatch for the store to any functions you want to inject.
 
-The culmination for our presentation component would be something like...
+The culmination for our presentation component would be something like this...
 {% highlight javascript %}
 import { connect } from 'react-redux'
 
