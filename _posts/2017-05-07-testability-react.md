@@ -29,10 +29,10 @@ I've spoke of Jest before but this article is more about the associated librarie
 <img src="http://facebook.github.io/jest/img/opengraph.png" height="150"/>
 
 ## Enter React-Redux
-The real benefit for testing driving while using these libraries comes from a design philosophy adopted by some of the community, described as Presentational vs Container components. I won't rehash the design itself here because I think the [article](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0) just it perfect justice but I will talk about the enjoyment of test driving it.
+The real benefit for testing driving while using these libraries comes from a design philosophy adopted by some of the community, described as Presentational vs Container components. I won't rehash the design itself here because I think the [article](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0) does it perfect justice but I will talk about the enjoyment of test driving it.
 
 ## Why's it so good?
-In a few words - separation. Presentational components are stupid. They're effectively a template and can often be a pure function that destructures the props from a component (the attributes of a React component) and returns a template.
+In a word - separation. Presentational components are stupid. They're effectively a template and can often be a pure function that destructures the props from a component (the attributes of a React component) and returns a template.
 {% highlight javascript %}
 const MyPresentationComponent = ({ attributeThatIsString, attributeEventFunction }) => (
 	<div>
